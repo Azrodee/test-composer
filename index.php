@@ -7,6 +7,10 @@ require __DIR__ . '/vendor/autoload.php';
 use Intervention\Image\ImageManager;
 use Intervention\Image\Drivers\Imagick\Driver;
 
+if(!file_exists(__DIR__.'/data')){
+    mkdir(__DIR__.'/data');
+}
+
 $bFound = false;
 
 if(file_exists(__DIR__.'/data/image.png')){
