@@ -1,0 +1,18 @@
+{
+    "name": "azrode/test-composer",
+    "type": "project",
+    "require": {
+        "intervention/image": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azrode\\TestComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "s.montard",
+            "email": "sebastien@montard.fr"
+        }
+    ]
+}
